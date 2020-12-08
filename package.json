@@ -1,0 +1,22 @@
+{
+  "name": "miss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel src -d src",
+    "watch": "npm run compile -- --watch"
+  },
+  "bin": {
+    "miss-cli": "bin/miss"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.9.0"
+  },
+  "author": "Feng",
+  "license": "ISC"
+}
